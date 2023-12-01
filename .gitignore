@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+settings.yaml
+*.log
+input/*.csv
+input/backup/
