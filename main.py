@@ -33,6 +33,7 @@ for file in csv_files:
     with open(file_path, "r", encoding='UTF-8') as csv_file:
         logger.info(f"Reading file: {file_path}")
         csv_content = csv.DictReader(csv_file, delimiter=',')
+        logger.info('=' * 50)
         logger.info(f'Zone {file} parsing')
         for row in csv_content:
             try:
